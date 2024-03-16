@@ -6,6 +6,74 @@
         min-height: 270px;
         border-radius: 10px;
         overflow: hidden;
+        &.landingPage{
+            min-height: inherit;
+            .bizCardTop{
+                img{
+                    width: 120px;
+                    margin: 0 auto;
+                }
+            }
+            .bizCardBottom{
+                border: 1px solid #ccc;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                .bizCardDetails{
+                    border: 0;
+                    border-radius: 0;
+                    padding: 0 20px 10px;
+                    .bizCardDetailsLeft{
+                        ul{
+                            li{
+                                margin: 5px 0 30px;
+                                &.user{
+                                    display: inherit;
+                                    margin: 0 0 20px;
+                                    h1{
+                                        font: 20px LexendBold;
+                                        text-transform: uppercase;
+                                        margin: 20px 0 0;
+                                    }
+                                    p{
+                                        text-transform: uppercase;
+                                        font: 15px LexendReg;
+                                        margin: 0;
+                                        color: #ff7c07;
+                                        clear: both;
+                                        display: inline-block;
+                                    }
+                                }
+                                div{
+                                    width: 25px;
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                                p{
+                                    span{
+                                        font-size: 10px;
+                                    }
+                                    font: 14px LexendReg;
+                                }
+                            }
+                        }
+                    }
+                }
+                button{
+                    background-color: #24282F;
+                    color: #F3AF56;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    margin: -10px auto 25px;
+                    width: 150px;
+                    display: block;
+                    font: 12.5px LexendBold;
+                    letter-spacing: .5px;
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
         .bizCardTop{
             background-color: #24282F;
             display: flex;

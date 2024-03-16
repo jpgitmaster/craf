@@ -11,7 +11,7 @@ export default function Home() {
               Angela Unida
             </h1>
             <p>
-              Sr Technica Project Manager
+              Sr Technical Project Manager
             </p>
           </div>
           <div className={styles.bizCardTopRight}>
