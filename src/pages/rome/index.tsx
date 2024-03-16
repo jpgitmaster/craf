@@ -51,7 +51,7 @@ export default function Home() {
             </ul>
           </div>
           <div className={styles.bizCardDetailsRight}>
-            <QRCodeSVG value="https://reactjs.org/" width={80} />
+            <QRCodeSVG value="https://reactjs.org/" width={75} />
           </div>
         </div>
       </div>

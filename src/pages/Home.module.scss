@@ -2,14 +2,14 @@
     padding: 0;
     .bizCard{
         margin: 50px auto;
-        width: 90%;
+        width: 94%;
         min-height: 270px;
         border-radius: 10px;
         overflow: hidden;
         .bizCardTop{
             background-color: #24282F;
             display: flex;
-            padding: 20px;
+            padding: 20px 15px;
             flex-direction: row;
             .bizCardTopLeft{
                 flex: 1;
@@ -36,7 +36,7 @@
         .bizCardDetails{
             display: flex;
             flex-direction: row;
-            padding: 0 20px 10px;
+            padding: 0 16px 10px;
             border: 1px solid #ccc;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
@@ -50,7 +50,7 @@
                         margin: 5px 0 10px;
                         align-items: center;
                         div{
-                            width: 20px;
+                            width: 18px;
                             img{
                                 width: 100%;
                             }
@@ -58,8 +58,8 @@
                         p{
                             flex: 1;
                             margin: 0 10px;
-                            font: 10px LexendReg;
-                            line-height: 14px;
+                            font: 9.5px LexendReg;
+                            line-height: 13px;
                             span{
                                 color: #24282F;
                                 width: 100%;
