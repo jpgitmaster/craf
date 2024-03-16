@@ -45,13 +45,13 @@ export default function Home() {
                 </div>
                 <p>
                   <span>Email Address</span>
-                  rflorante@gmail.com
+                  angelaunida@gmail.com
                 </p>
               </li>
             </ul>
           </div>
           <div className={styles.bizCardDetailsRight}>
-            <QRCodeSVG value="https://reactjs.org/" width={75} />
+            <QRCodeSVG value='https://friendly-chimera-41f6b9.netlify.app/angela/save_contact' width={75} />
           </div>
         </div>
       </div>
