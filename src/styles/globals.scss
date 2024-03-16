@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: LexendReg;
+    font-weight: 500;
+    src: url('./fonts/Lexend/static/Lexend-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: LexendLight;
+    font-weight: 200;
+    src: url('./fonts/Lexend/static/Lexend-ExtraLight.ttf') format('truetype');
+}

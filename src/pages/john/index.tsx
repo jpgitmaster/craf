@@ -1,6 +1,6 @@
 import { QRCodeSVG } from 'qrcode.react'
 import Image from 'next/image'
-import styles from './Home.module.scss'
+import styles from './../Home.module.scss'
 export default function Home() {
   return (
     <div className={styles.bizCard}>

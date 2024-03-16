@@ -1,16 +1,16 @@
 import { QRCodeSVG } from 'qrcode.react'
 import Image from 'next/image'
-import styles from './Home.module.scss'
+import styles from './../Home.module.scss'
 export default function Home() {
   return (
     <div className={styles.bizCard}>
       <div className={styles.bizCardTop}>
         <div className={styles.bizCardTopLeft}>
           <h1>
-            John Patrick Vasquez
+            Rommel Florante
           </h1>
           <p>
-            Application Lead Developer
+            Sr Solution Architect / Manager
           </p>
         </div>
         <div className={styles.bizCardTopRight}>
@@ -35,7 +35,7 @@ export default function Home() {
               </div>
               <p>
                 <span>Mobile Number</span>
-                +63 926 656 9064
+                +63 905 999 0943
               </p>
             </li>
             <li>
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
               <p>
                 <span>Email Address</span>
-                vasquezjp14@gmail.com
+                rflorante@gmail.com
               </p>
             </li>
           </ul>

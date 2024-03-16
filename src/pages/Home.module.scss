@@ -1,0 +1,75 @@
+.bizCard{
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    width: 500px;
+    min-height: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    .bizCardTop{
+        background-color: #24282F;
+        display: flex;
+        padding: 25px;
+        flex-direction: row;
+        .bizCardTopLeft{
+            flex: 1;
+            h1{
+                font: 20px LexendReg;
+                color: #F3AF56;
+                text-transform: uppercase;
+                margin: 12px 0 2px;
+            }
+            p{
+                text-transform: uppercase;
+                font: 13px LexendLight;
+                color: #fff;
+            }
+        }
+        .bizCardTopRight{
+            width: 100px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+    .bizCardDetails{
+        display: flex;
+        flex-direction: row;
+        padding: 15px 25px;
+        .bizCardDetailsLeft{
+            flex: 1;
+            ul{
+                margin: 15px 0 0;
+                li{
+                    display: flex;
+                    flex-direction: row;
+                    margin: 5px 0 15px;
+                    align-items: center;
+                    div{
+                        width: 30px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    p{
+                        flex: 1;
+                        margin: 0 10px;
+                        font: 13px LexendReg;
+                        line-height: 16px;
+                        span{
+                            color: #24282F;
+                            width: 100%;
+                            font: 8px LexendLight;
+                            display: block;
+                            letter-spacing: .8px;
+                        }
+                    }
+                }
+            }
+        }
+        .bizCardDetailsRight{
+            width: 100px;
+            padding-top: 20px;
+        }
+    }
+}
