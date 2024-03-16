@@ -7,8 +7,16 @@ export default function Home() {
         vCard.firstName = 'JP';
         vCard.lastName = 'Vasquez';
         vCard.organization = 'CRAF Enterprise';
+        vCard.workEmail = 'vasquezjp14@gmail.com';
         vCard.workPhone = '+63-926-656-9064';
         vCard.title = 'Application Lead Developer';
+
+        vCard.workAddress.label = 'Work Address';
+        vCard.workAddress.street = '7 Metroville 2, Tandang Sora Ave, Project 8';
+        vCard.workAddress.city = 'Quezon City';
+        vCard.workAddress.stateProvince = 'Metro Manila';
+        vCard.workAddress.postalCode = '1116';
+        vCard.workAddress.countryRegion = 'NCR';
         return vCard.getFormattedString();
     }
     const saveVcard = (vcfText: any) => {
