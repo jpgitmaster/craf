@@ -7,12 +7,12 @@ export default function Home() {
         <div className={styles.bizCard}>
         <div className={styles.bizCardTop}>
             <div className={styles.bizCardTopLeft}>
-            <h1>
-                John Patrick Vasquez
-            </h1>
-            <p>
-                Application Lead Developer
-            </p>
+                <h1>
+                    John Patrick Vasquez
+                </h1>
+                <p>
+                    Application Lead Developer
+                </p>
             </div>
             <div className={styles.bizCardTopRight}>
             <Image src='/logo.png' alt='CRAF Logo' priority width={20} height={20} unoptimized={true} />
@@ -51,7 +51,7 @@ export default function Home() {
             </ul>
             </div>
             <div className={styles.bizCardDetailsRight}>
-                <QRCodeSVG value='/john/save_contact' width={75} />
+                <QRCodeSVG value='https://friendly-chimera-41f6b9.netlify.app/john/save_contact' width={75} />
             </div>
         </div>
         </div>
